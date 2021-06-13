@@ -1,3 +1,5 @@
+<?php
+
 //State - add to functions.php
 // Only one state e.g. PA in US
 
