@@ -1,3 +1,4 @@
+<?php
 /* This piece of code will hide fields for the chosen method.
 .hide_pickup {
     display: none !important;
