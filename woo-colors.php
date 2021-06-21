@@ -14,7 +14,7 @@ button.single_add_to_cart_button.button.alt {
 
 
 main.checkoutwc .cfw-bottom-controls .cfw-primary-btn, main.checkoutwc .place-order .cfw-primary-btn, main.checkoutwc #info_payment button {
-    background-color: var( --e-global-color-primary );
+    background-color: var( --e-global-color-primary )!important;
     color: #ffffff;
 }
 
