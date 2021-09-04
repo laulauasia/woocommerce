@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+.elementor-element.elementor-products-grid ul.products {
+    grid-template-columns: repeat(3,1fr);
+}
+}
