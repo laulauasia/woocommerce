@@ -1,5 +1,13 @@
-@media (max-width: 767px) {
-.elementor-element.elementor-products-grid ul.products {
-    grid-template-columns: repeat(3,1fr);
+
+/* for desktop view */
+body[data-elementor-device-mode="desktop"] selector ul.products{
+  grid-template-columns: repeat(4, 1fr);
 }
+/* for tablet view */
+body[data-elementor-device-mode="tablet"] selector ul.products{
+  grid-template-columns: repeat(4, 1fr);
+
+} /* for mobile view */
+body[data-elementor-device-mode="mobile"] selector ul.products{
+  grid-template-columns: repeat(2, 1fr);
 }
